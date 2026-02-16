@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./page";
 import { Task1 } from "./page/task-1";
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -14,5 +14,3 @@ const App: React.FC = () => {
     </BrowserRouter>
   );
 };
-
-export default App;
