@@ -14,15 +14,7 @@ export const Home = () => {
 
       <button
         onClick={() => navigate("/task")}
-        style={{
-          padding: "10px 20px",
-          fontSize: "16px",
-          cursor: "pointer",
-          backgroundColor: "#007bff",
-          color: "white",
-          border: "none",
-          borderRadius: "8px"
-        }}
+        className="btn"
       >
         Click Here
       </button>
